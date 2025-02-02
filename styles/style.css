@@ -1,6 +1,6 @@
 /* место для вашего кода */
 body {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   text-underline-offset: 4px;
 }
@@ -9,8 +9,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  min-height: 293px;
-  padding: 50px;
+  padding: 92px 50px 92px;
   font-size: 18px;
   background-color: #ffffff;
 }
@@ -111,7 +110,7 @@ body {
   word-spacing: 20px;
 }
 
-.word_spacing-80 {
+.word_spacing {
   word-spacing: 18px;
 }
 
@@ -164,27 +163,21 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 48px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .lot-film {
   background-image: url("../images/card-lot-01.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .lot-book {
   background-image: url("../images/card-lot-02.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .lot-picture {
   background-image: url("../images/card-lot-03.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .lot_title {
@@ -199,8 +192,6 @@ body {
 
 .lot_text {
   z-index: 1;
-  max-height: 360px;
-  overflow: auto;
   color: #ffffff;
   font-size: 20px;
   line-height: 120%;
@@ -220,7 +211,7 @@ body {
   background-color: #ffffff;
 }
 
-.about_container_left {
+.about_container {
   justify-self: center;
 }
 
@@ -254,6 +245,7 @@ body {
 .about_discription-text {
   font-size: 20px;
   line-height: 120%;
+  color: #000000;
 }
 
 .about_discription-text-margin {
@@ -264,8 +256,7 @@ body {
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  min-height: 360px;
-  padding: 180px 50px 0;
+  padding: 180px 50px 82px;
   background-color: #ffffff;
 }
 
